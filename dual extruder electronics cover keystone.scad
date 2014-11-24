@@ -5,7 +5,7 @@ difference() {
 		import("dual extruder electronics cover v1.0.stl");
 	}
 	rotate(a=[90, 90, 0]) {
-		volumeBlock();
+		rj45VolumeBlock();
 		translate([0, 25, 0]) {
 			rj45VolumeBlock();
 		}
